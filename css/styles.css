@@ -1,29 +1,38 @@
 .container {
-    margin-top: 9rem;
+  margin-top: 7rem;
+}
 
+.button-container {
+  margin: 3rem auto;
 }
 
 .row-cols-3 .col {
-    border: 1px solid black;
-    padding: 0.25;
+  border: 1px solid black;
+  padding: 0.25;
 }
 
 .row .row-cols-3 {
-    border: 3px solid black;
+  border: 3px solid black;
 }
 
-.first-column, .second-column {
-    margin-right: 1.2rem;
+.first-column,
+.second-column {
+  margin-right: 1.2rem;
 }
 
-.first-row, .second-row {
-    margin-bottom: .25rem;
+.first-row,
+.second-row {
+  margin-bottom: 0.25rem;
 }
 
-.sudoku-input.form-control  {
-    padding: 0rem;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1.5rem;
-    width: 100%
+.sudoku-input.form-control {
+  padding: 0rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1.5rem;
+  width: 100%;
+}
+
+.new-puzzle {
+  margin-right: 2rem;
 }
